@@ -4,10 +4,10 @@ class SessionsController < ApplicationController
 
   def create
     if params[:name] && params[:name] != ''
-
+      
     else
-
-    eand
+      redirect_to '/login'
+    end
   end
 
   def show
