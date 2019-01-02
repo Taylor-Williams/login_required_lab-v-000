@@ -8,6 +8,6 @@ class SecretsController < ApplicationController
   private
 
   def logged_in?
-    !!current_user
+    redirect_to '/login' if !current_user
   end
 end
