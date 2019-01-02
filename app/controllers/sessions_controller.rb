@@ -5,9 +5,6 @@ class SessionsController < ApplicationController
   def create
   end
 
-  def show
-  end
-
   def secret
   end
 
