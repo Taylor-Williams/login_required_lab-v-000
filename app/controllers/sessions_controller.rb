@@ -5,7 +5,9 @@ class SessionsController < ApplicationController
   def create
     if params[:name] && params[:name] != ''
 
-    end
+    else
+
+    eand
   end
 
   def show
