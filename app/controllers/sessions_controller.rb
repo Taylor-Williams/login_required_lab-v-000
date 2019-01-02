@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
   def create
   end
 
-  def secret
+  def show
   end
 
   def destroy
